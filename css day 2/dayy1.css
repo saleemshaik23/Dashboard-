@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    
+    background-image:url("https://static.toiimg.com/thumb/msid-108681057,width-1280,height-720,resizemode-4/108681057.jpg") ;
+    background-size: 600px;
+    /* margin: 2px 2px 2px 1px; */
+    background-repeat: repeat-x;
+
+}
+    
+
+
+h1{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    
+}
+
+.h1{
+    text-align: right;
+    color: white;
+    text-shadow: 3px 3px 3px blue;
+    text-transform: capitalize;
+}
+
+.h2{
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 3px rgb(24, 19, 72);
+    text-transform: lowercase;
+}
+
+.h3{
+    text-align: left;
+    color: white;
+    text-shadow: 3px 3px rgb(66, 17, 17);
+    text-transform: uppercase;
+}
+.h4{
+    /* text-align: center; */
+    color: black;
+    background-color: orange;
+    text-decoration: underline ;
+    text-transform: capitalize;
+    /* margin-bottom: 6px; */
+}
+
+.section{
+    background: linear-gradient(to right top, beige, pink, lightblue);
+}
+
+/* .di{
+    text-align: center;
+    
+} */
+
+/* .div1{
+    height: 300px;
+    width: 300px;
+    flex-direction: center;
+    
+} */
+
+.di{
+    padding: 10px 10px;
+    background-color: white;
+    border: 2px solid;
+    max-width: 300px;
+    max-height: 300px;
+    border-color: black;
+    position: relative; 
+    margin-left: 600px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+    
+}
+
+.di:hover{
+    box-shadow: 3px 3px 3px red , -3px -3px 3px red ;
+    border-radius: 5px;
+}
