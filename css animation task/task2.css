@@ -1,0 +1,40 @@
+img{
+    height: 100px;
+    width: 100px;
+    
+}
+
+
+.right{
+    margin-left: 200px;
+    animation: bonce 4s ease-in  infinite;
+}
+
+@keyframes bonce{
+    0%{
+         transform: translate(0,0) rotate(0);
+    }
+    50%{
+        transform: translate(85vw,0) rotate(180deg);
+    }
+    100%{
+        transform: translate(0,0) rotate(180deg); 
+    }
+}
+
+.left{
+    animation: bonce1 4s linear  infinite ;
+}
+
+
+@keyframes bonce1{
+    0%{
+        transform: translate(0,0) rotate(0);
+   }
+   50%{
+       transform: translate(0,85vh) rotate(180deg);
+   }
+   100%{
+       transform: translate(0,0) rotate(0); 
+}
+}
